@@ -28,9 +28,6 @@ const Nav = () => (
           </form>
          </div>
        </div>
-    <style jsx>{`
-
-    `}</style>
   </nav>
 )
 
