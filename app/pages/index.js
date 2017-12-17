@@ -31,6 +31,7 @@ export default () => (
         <Link href="/references">
           <a>Click Here to see the References</a>
         </Link>
+        <p>This shows how page routing works in NextJS</p>
       </div>
 
     </div>
