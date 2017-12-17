@@ -11,9 +11,6 @@ const Nav = () => (
          <div className="collapse navbar-collapse" id="navbarResponsive">
            <ul className="navbar-nav text-uppercase ml-auto">
              <li className="nav-item">
-               <a className="nav-link js-scroll-trigger" href="/#start">Getting Started</a>
-             </li>
-             <li className="nav-item">
                <a className="nav-link js-scroll-trigger" href="/#use">How to use?</a>
              </li>
              <li className="nav-item">
@@ -26,7 +23,7 @@ const Nav = () => (
                <a className="nav-link js-scroll-trigger" href="https://github.com/ananddayalan/nextjs-in-firebase-with-bootstrap/">Github</a>
              </li>
            </ul>
-           <form className="form-inline mt-2 mt-md-0">
+           <form className="nav-item">
             <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
           </form>
          </div>
