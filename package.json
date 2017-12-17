@@ -5,7 +5,7 @@
   "scripts": {
     "install": "yarn build-all",
     "next": "yarn build-firebase && cd app && yarn && yarn dev",
-    "preserve": "cp -a \"app/static/\". \"public/static/\" && yarn build-all",
+    "preserve": "mkdir -p public/static && cp -a \"app/static/\". \"public/static/\" && yarn build-all",
     "serve": "firebase serve",
     "predeploy": "cp -a \"app/static/\". \"public/static/\" && yarn build-all",
     "deploy": "firebase deploy",
