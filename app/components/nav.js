@@ -22,6 +22,9 @@ const Nav = () => (
              <li className="nav-item">
                <a className="nav-link js-scroll-trigger" href="https://github.com/ananddayalan/nextjs-in-firebase-with-bootstrap/issues">Issues</a>
              </li>
+             <li className="nav-item">
+               <a className="nav-link js-scroll-trigger" href="https://github.com/ananddayalan/nextjs-in-firebase-with-bootstrap/">Github</a>
+             </li>
            </ul>
            <form className="form-inline mt-2 mt-md-0">
             <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
