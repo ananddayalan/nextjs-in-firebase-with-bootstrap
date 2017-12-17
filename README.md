@@ -7,8 +7,10 @@ Getting started with NextJS App with Firebase from scratch is a time consuming d
 Checkout the live preview site fore more info https://nextjs-in-firebase-functions.firebaseapp.com
 
 # Todos
-1. Get data from Firestore and display
-2. Add support for Redux
+1. Firebase Auth
+2. Get data from Firestore and display
+3. Add support for Redux
+
 
 # Contribution
 Contribution are welcome
