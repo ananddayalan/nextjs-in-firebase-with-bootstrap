@@ -2,7 +2,7 @@ import App from "../components/app"
 
 export default () => (
 <App>
-  <div>
+  <div className="container">
       <div className="row card" id="references">
         <h1>References</h1>
         <ul>
@@ -32,7 +32,10 @@ export default () => (
           border-color: #067df7;
         }
         li {
-          padding: 20px;
+          padding: 1em;
+        }
+        .container {
+          margin-top: 10em;
         }
       `}</style>
     </div>
