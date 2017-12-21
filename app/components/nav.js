@@ -1,7 +1,7 @@
 import Head from './head'
 
 const Nav = () => (
-  <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <nav className="navbar navbar-expand-lg fixed-top navbar-shrink" id="mainNav">
        <div className="container">
          <a className="navbar-brand js-scroll-trigger" href="/#top">Nextjs in Firebase with Bootstrap</a>
          <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,7 @@ const Nav = () => (
          #mainNav {
            background-color: #fff;
            border-bottom: 1px solid;
-           border-color: #27a5af;
-
+           z-index: 1000;
          }
            #mainNav .navbar-toggler {
              font-size: 1em;
@@ -42,22 +41,21 @@ const Nav = () => (
              padding: 1em;
              color: white;
              border: 0;
-             background-color: #27a5af;
              font-family:  "Noto Serif",Georgia,Times New Roman,serif;
            }
            #mainNav .navbar-brand {
-             color: #5b6b74;
+             color: #53c4cc;
              font-family:  "proxima-nova", Helvetica, Arial, sans-serif;
            }
              #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-               color: #576771;
+               color: #53c4cc;
              }
            #mainNav .navbar-nav .nav-item .nav-link {
              font-size: 80%;
              font-weight: 400;
              padding: 0.75em 0;
              letter-spacing: 1px;
-             color: #4e4c4a;
+             color: #ccc;
              font-family: "Noto Serif",Georgia,Times New Roman,serif; }
              #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
                color: #53c4cc;
