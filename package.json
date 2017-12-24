@@ -1,6 +1,6 @@
 {
   "name": "nextjs-in-firebase-with-bootstrap",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "NextJS in Firebase with Bootstrap.",
   "scripts": {
     "install": "yarn build-all",
