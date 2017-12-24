@@ -20,4 +20,3 @@ test/**/out
 Thumbs.db
 *.lock
 next
-public/static
